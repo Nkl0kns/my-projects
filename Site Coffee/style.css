@@ -1,0 +1,441 @@
+* {
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: content-box;
+}
+
+.front-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 39px;
+}
+ .burger-menu {
+    display: none;
+    
+ }
+
+ .burger-1, .burger-2, .burger-3 {
+    display: flex;
+    width: 27px;
+    height: 1.62px;
+    background: #141414;
+    border-radius: 5px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 676px;
+}
+
+.nav a { 
+    text-decoration: none;
+}
+
+.menu {
+    color: #000000;
+    font-family: Josefin Sans;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+#menu-butn {
+    width: 135px;
+    background-color: #2D635E;
+    border-color: none;
+    border-radius: 10px;
+    border-style: none;
+}
+
+#menu-butn a {
+    color: #FFFFFF;
+}
+
+h4 {
+    font-family: Cedarville Cursive;
+    font-weight: 400;
+    font-size: 28px;
+    color: #444A4A;
+    line-height: 53.1px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 63px;
+    color: #000000;
+    line-height: 63px;
+}
+
+#order-butn {
+    width: 235px;
+    height: 54px;
+    background-color: #2D635E;
+    border-color: none;
+    border-radius: 5px;
+    border-style: none;
+}
+
+#order-butn a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 158px auto 0;
+    width: 1200px;
+    height: 466px;
+}
+
+.left-block {
+   align-self: center;
+}
+
+.right-block {
+    position: relative;
+}
+
+
+.grey-cub {
+    position: absolute;
+    right: 72px;
+    top: 0;
+    width: 410px;
+    height: 466px;
+    background-color: #E3EBE7;
+}
+
+.grey-cub #coffemach {
+    position: absolute;
+    width: 344px;
+    height: 373px;
+    right: 27px;
+    bottom: -47px;
+}
+
+.mini-cub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #E3EBE7;
+    opacity: 0.4;
+    width: 154px;
+    height: 157px;
+    bottom: 0;
+    left: -154px;
+    
+}
+
+.mini-cub img {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    width: 25px;
+    height: 6px;
+    transform: translateX(50%);
+}
+
+.social-media {
+    position: absolute;
+    bottom: 85px;
+    right: -180px;
+     display: flex;
+     flex-direction: row-reverse;
+     justify-content: space-around;
+     align-items: center;
+    height: 35px;
+     width: 230px;
+     transform: rotate(-90deg) ;
+     padding-left: 14px;
+     
+}
+
+
+.social-media img{
+    width: 32px;
+    height: 32px;
+    
+}
+
+.icon {
+    transform: rotate(90deg);
+}
+.social-media p {
+    height: 28px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-size: 28px;
+    font-weight: 700;
+    color: #444A4A;
+    margin: 0;
+    white-space: nowrap;
+    
+}
+.coffee-shop {
+    width: 1200px;
+    height: 466px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 198px auto 0;
+}
+
+.right-coffee {
+    padding-top: 0;
+    width: 645px;
+}
+
+.shop-title {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 38px;
+    margin: 0;
+   
+}
+
+.right-coffee p {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 36px;
+    color: #444A4A;    ;
+}
+
+.pink-cub {
+    width: 380px;
+    height: 287px;
+    background: #FAE9E0;
+    position: relative;
+}
+
+.pink-cub img {
+    position: absolute;
+    width: 364px;
+    height: 262px;
+    bottom: -53px;
+    right: -12.59px;
+}
+
+.pink-cub h4 {
+    font-family: 'Cedarville Cursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 53px;
+    opacity: 0.75;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 7px;
+    left: -45px;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+.day {
+    width: 1200px;
+    height: 466px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto 0;
+}
+.left-day p {
+    width: 615px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 36px;
+    color: #444A4A;
+}
+
+.day-title {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 38px;
+}
+.green-cub {
+    width: 410px;
+    height: 276px;
+    background: #E3EBE7;
+    position: relative;
+}
+
+#glass {
+    position: absolute;
+    right: 95px;
+    top: -35px; 
+}
+
+.green-cub h4 {
+    font-family: 'Cedarville Cursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 53px;
+    position: absolute;
+    top: 0px;
+    right: -50px;
+    margin: 0;
+    color: #000000;
+    opacity: 0.75;
+    transform: rotate(-90deg);
+}
+
+.gallery {
+    background: rgba(45, 99, 94, .05);
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.drink {
+    width: 339.84px;
+    height: 458px;
+    background: #FFFFFF;
+    box-shadow: 0px 23px 34px rgba(35, 57, 55, 0.17);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.drink h3 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    color: #000000;
+    margin: 0;
+}
+
+.drink p {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 36px;
+    color: #444A4A;
+    width: 223.55px;
+    height: 216px;
+    margin: 0;
+    text-align: center;
+    
+}
+
+.drink button {
+    width: 235px;
+    height: 54px;
+    background-color: #2D635E;
+    border-color: none;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.drink button a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+i {
+    border: solid #2D635E;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 3px;
+    width: 8px;
+    height: 8px;
+  }
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+footer {
+    height: 635px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.end-block {
+    width: 1200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.line {
+    border: 2px solid #444A4A;
+    width: 102px;
+    height: 0px;
+    background-color:#444A4A;
+    margin: 0 35px;
+    margin-top: 36px;
+}
+
+.line, .address {
+    align-self: flex-start;
+}
+
+.address {
+    margin-top: 13px;
+}
+
+.maps {
+    position: relative;
+}
+
+.maps h4 {
+    font-family: 'Cedarville Cursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 53px;
+    position: absolute;
+    top: 0px;
+    right: -41px;
+    margin: 0;
+    color: #000000;
+    opacity: 0.75;
+    transform: rotate(-90deg);
+    order: 4;
+}
+
+.maps iframe {
+    width: 646px;
+    height: 351px;
+    z-index: -1;
+}
+
+.address button {
+    display: none;
+}
+.years {
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 36px;
+    color: #444A4A;
+}

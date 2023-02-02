@@ -1,0 +1,374 @@
+*{font-family: 'Roboto', sans-serif;}
+
+$size:100%;
+
+.nav{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 944px;
+    margin: 0 auto;
+    a{
+        text-decoration: none;
+        .menu{
+            text-align: center;
+            color: #828282;
+            font-family: 'Roboto';
+            font-size: 18px;
+            line-height: 22px;
+            &:hover{
+                color:black
+            }
+        }
+    }
+}
+
+.front-block{
+    height: 679px;
+    width: 944px;
+    margin: 0 auto;
+    img{
+        animation-iteration-count: 1;
+        animation-duration: 2s;
+        animation-name: slidegdz;
+        animation-fill-mode: forwards;
+    }
+    .vector img{
+        align-items: center;
+        margin-top: 30px;
+    }
+    .inform{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 944px;
+        margin: 35px 0;
+        .name-block h3 {
+            opacity: 0%;
+            animation: Denis 1s linear 1s forwards;
+            font-family: 'Roboto';
+            font-size: 47px;
+            margin: 0;
+        }
+        .line {
+            display: none;
+        }
+        .description{
+            margin: 0;
+            font-size: 18px;         
+            line-height: 22px;
+        }
+        .lang{
+            transform: rotate(-90deg);
+        }
+    }
+    .front-image {
+        max-width: 768px;
+        margin: auto;
+        .front-img{
+           width: $size;
+           height: 387px;
+           display: block;
+           width: $size;
+           object-fit: cover;
+       }
+   }
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 506px;
+    background-color: #F6F6F6;
+    text-align: center;
+    .about-title{
+        font-size: 34px;
+        line-height: 22px;
+    }
+    .text-one,.text-two, .text-three{
+        text-align: center;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+.skills{
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .skills-inform{
+        text-align: center;
+        .skills-title{
+            font-size: 34px;
+            line-height: 42px;
+        }
+        .skills-text{
+            font-size: 18px;
+            line-height: 22px;
+            margin-top: 69px;
+            margin-bottom: 83px;
+        }
+    }
+    .skills-progrm{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 944px;
+        .photoshop, .illustrator, .after-effects, .figma {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            p {
+                font-size: 14px;
+                line-height: 17px;
+                color:#828282; 
+            }
+        }
+    }
+}
+
+.portfolio{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F6F6F6;
+    .portfolio-title{
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .splide {
+        height: 650px;
+        width: 1100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        .splide__list img {
+            width: 925px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            .shop{
+                img{
+                    height: 510px;
+                    margin-bottom: 44px;
+                }
+            }
+            .reebok{
+                img{
+                    height: 522px;
+                    margin-bottom: 44px;
+                }
+            }
+            .braun{
+                height: 163px;
+                p{
+                    text-align: center;
+                    text-decoration-line: underline;
+                    font-size: 18px;
+                    line-height: 22px;
+                    margin-top: 45px;
+                    margin-bottom: 96px;
+                }
+            }
+        }
+    }
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .contacts-inform{
+        text-align: center;
+        .contacts-title{
+            margin-top: 114px;
+            font-size: 34px;
+            line-height: 42px;
+        }
+        .contacts-text{
+            font-size: 18px;
+            line-height: 22px;
+            margin-top: 20px;
+            margin-bottom: 29px;
+        }
+        .message{
+            width: 180px;
+            height: 42px;
+            border-radius: 25px;
+            background-color: black;
+            color: aliceblue;
+            font-size: 18px;
+            line-height: 22px;
+            &:hover{
+                transform: scale(1.1);
+            }
+            a{
+                text-decoration: none;
+                color: #F6F6F6;
+            }
+        }
+    }
+    .icons{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 342px;
+        margin-top: 85px;
+        margin-bottom: 45px;
+        .icon1 {
+            transition: all 1.5s;
+            &:hover{
+                transform: scale(1.4) rotate(90deg);
+                opacity: 0.5;
+            }
+        }
+        .icon4 {
+            animation: circle 5s ease-in-out 2s infinite normal;
+        }
+    }
+}
+.like{
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    margin-bottom: 123px;
+}
+
+
+@keyframes slidegdz {
+    0% { width: 10%; }
+    100% { width: 100%; }
+   }
+
+@keyframes Denis {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes circle {
+    0%{
+
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+    100%{
+        
+    }
+}
+
+
+@media (max-width: 600px){
+    .nav {
+        display: none;
+    }
+    .front-block {
+        width: 100%;
+        height: 836px;
+        display: flex;
+        flex-direction: column;
+        .vector {
+            display: none;
+        }
+        .inform {
+            flex-direction: column;
+            align-self: flex-start;
+            justify-content: flex-start;
+            align-items: flex-start;
+            .name-block {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 375px;
+                .names {
+                    width: 124px;
+                }
+                .line {
+                    display: flex;
+                    flex-direction: column;
+                    align-self: flex-start;
+                    width: 33px;
+                    height: 20px;
+                    display: flex;
+                    margin-top: 15px;
+                    .liner1, .liner2, .liner3 {
+                        width: 33px;
+                        height: 3.84px;
+                        background: #000000;
+                    }
+                    .liner2 {
+                        margin: 3px 0;
+                    }
+                }
+            }
+            .description-block {
+                margin-top: 23px;
+            }
+            .lang-block {
+                display: none;
+            }
+        }
+        .front-image {
+            width: 100%;
+            height: 478px;
+            margin: 0;
+            .front-img{
+                width: 80%;
+                height: 478px;
+                object-position: -300px 0px;
+            }
+        }
+    }
+    .skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 1350px;
+        .skills-progrm {
+            flex-direction: column;
+            .photoshop, .illustrator, .after-effects, .figma {
+                margin-bottom: 81px;
+            }
+         }
+    }
+    .portfolio {
+        height: 425px;
+        .portfolio-title {
+            margin-top: 50px;
+        }
+        .carousel-images {
+            display: flex;
+            justify-content: center;
+            width: 80%;
+            height: 478px;
+            margin: 0 auto;
+            text-align: center;
+            .splide {
+                height: 225px;
+                .gallery-images img {
+                    object-fit: fill;
+                    display: block;
+                    margin: 0 auto;
+                    width: 80%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    .like {
+        margin-bottom: 90px;
+    }
+  }
+  

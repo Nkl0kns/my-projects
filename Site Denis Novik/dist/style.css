@@ -1,0 +1,367 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 944px;
+  margin: 0 auto;
+}
+.nav a {
+  text-decoration: none;
+}
+.nav a .menu {
+  text-align: center;
+  color: #828282;
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 22px;
+}
+.nav a .menu:hover {
+  color: black;
+}
+
+.front-block {
+  height: 679px;
+  width: 944px;
+  margin: 0 auto;
+}
+.front-block img {
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+  animation-name: slidegdz;
+  animation-fill-mode: forwards;
+}
+.front-block .vector img {
+  align-items: center;
+  margin-top: 30px;
+}
+.front-block .inform {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 944px;
+  margin: 35px 0;
+}
+.front-block .inform .name-block h3 {
+  opacity: 0%;
+  animation: Denis 1s linear 1s forwards;
+  font-family: "Roboto";
+  font-size: 47px;
+  margin: 0;
+}
+.front-block .inform .line {
+  display: none;
+}
+.front-block .inform .description {
+  margin: 0;
+  font-size: 18px;
+  line-height: 22px;
+}
+.front-block .inform .lang {
+  transform: rotate(-90deg);
+}
+.front-block .front-image {
+  max-width: 768px;
+  margin: auto;
+}
+.front-block .front-image .front-img {
+  width: 100%;
+  height: 387px;
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 506px;
+  background-color: #F6F6F6;
+  text-align: center;
+}
+.about-me .about-title {
+  font-size: 34px;
+  line-height: 22px;
+}
+.about-me .text-one, .about-me .text-two, .about-me .text-three {
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.skills {
+  height: 610px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skills .skills-inform {
+  text-align: center;
+}
+.skills .skills-inform .skills-title {
+  font-size: 34px;
+  line-height: 42px;
+}
+.skills .skills-inform .skills-text {
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 69px;
+  margin-bottom: 83px;
+}
+.skills .skills-progrm {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 944px;
+}
+.skills .skills-progrm .photoshop, .skills .skills-progrm .illustrator, .skills .skills-progrm .after-effects, .skills .skills-progrm .figma {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skills .skills-progrm .photoshop p, .skills .skills-progrm .illustrator p, .skills .skills-progrm .after-effects p, .skills .skills-progrm .figma p {
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+}
+
+.portfolio {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F6F6F6;
+}
+.portfolio .portfolio-title {
+  font-size: 34px;
+  line-height: 42px;
+}
+.portfolio .splide {
+  height: 650px;
+  width: 1100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.portfolio .splide .splide__list img {
+  width: 925px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.portfolio .splide .splide__list img .shop img {
+  height: 510px;
+  margin-bottom: 44px;
+}
+.portfolio .splide .splide__list img .reebok img {
+  height: 522px;
+  margin-bottom: 44px;
+}
+.portfolio .splide .splide__list img .braun {
+  height: 163px;
+}
+.portfolio .splide .splide__list img .braun p {
+  text-align: center;
+  text-decoration-line: underline;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 45px;
+  margin-bottom: 96px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contacts .contacts-inform {
+  text-align: center;
+}
+.contacts .contacts-inform .contacts-title {
+  margin-top: 114px;
+  font-size: 34px;
+  line-height: 42px;
+}
+.contacts .contacts-inform .contacts-text {
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 20px;
+  margin-bottom: 29px;
+}
+.contacts .contacts-inform .message {
+  width: 180px;
+  height: 42px;
+  border-radius: 25px;
+  background-color: black;
+  color: aliceblue;
+  font-size: 18px;
+  line-height: 22px;
+}
+.contacts .contacts-inform .message:hover {
+  transform: scale(1.1);
+}
+.contacts .contacts-inform .message a {
+  text-decoration: none;
+  color: #F6F6F6;
+}
+.contacts .icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 342px;
+  margin-top: 85px;
+  margin-bottom: 45px;
+}
+.contacts .icons .icon1 {
+  transition: all 1.5s;
+}
+.contacts .icons .icon1:hover {
+  transform: scale(1.4) rotate(90deg);
+  opacity: 0.5;
+}
+.contacts .icons .icon4 {
+  animation: circle 5s ease-in-out 2s infinite normal;
+}
+
+.like {
+  text-align: center;
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+  margin-bottom: 123px;
+}
+
+@keyframes slidegdz {
+  0% {
+    width: 10%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes Denis {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes circle {
+  50% {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+
+  .front-block {
+    width: 100%;
+    height: 836px;
+    display: flex;
+    flex-direction: column;
+  }
+  .front-block .vector {
+    display: none;
+  }
+  .front-block .inform {
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .front-block .inform .name-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 375px;
+  }
+  .front-block .inform .name-block .names {
+    width: 124px;
+  }
+  .front-block .inform .name-block .line {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: 33px;
+    height: 20px;
+    display: flex;
+    margin-top: 15px;
+  }
+  .front-block .inform .name-block .line .liner1, .front-block .inform .name-block .line .liner2, .front-block .inform .name-block .line .liner3 {
+    width: 33px;
+    height: 3.84px;
+    background: #000000;
+  }
+  .front-block .inform .name-block .line .liner2 {
+    margin: 3px 0;
+  }
+  .front-block .inform .description-block {
+    margin-top: 23px;
+  }
+  .front-block .inform .lang-block {
+    display: none;
+  }
+  .front-block .front-image {
+    width: 100%;
+    height: 478px;
+    margin: 0;
+  }
+  .front-block .front-image .front-img {
+    width: 80%;
+    height: 478px;
+    object-position: -300px 0px;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1350px;
+  }
+  .skills .skills-progrm {
+    flex-direction: column;
+  }
+  .skills .skills-progrm .photoshop, .skills .skills-progrm .illustrator, .skills .skills-progrm .after-effects, .skills .skills-progrm .figma {
+    margin-bottom: 81px;
+  }
+
+  .portfolio {
+    height: 425px;
+  }
+  .portfolio .portfolio-title {
+    margin-top: 50px;
+  }
+  .portfolio .carousel-images {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 478px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .portfolio .carousel-images .splide {
+    height: 225px;
+  }
+  .portfolio .carousel-images .splide .gallery-images img {
+    object-fit: fill;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+  }
+
+  .like {
+    margin-bottom: 90px;
+  }
+}
